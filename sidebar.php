@@ -1,10 +1,10 @@
 <div class="col-md-3 dadin-menu dadin-menu-2">
   <ul>
-    <li><span class="glyphicon glyphicon-search"></span></li>
-    <li>login</li>
-    <li>webmail</li>
-    <li>nuvem</li>
-    <li>contato</li>
+    <li><?php get_search_form(); ?></li>
+    <li><a href="wp-admin">login</a></li>
+    <li><a href="#">webmail</a></li>
+    <li><a href="#">nuvem</a></li>
+    <li><a href="mailto:dadinutfpr@gmail.com" target="_blank">contato</a></li>
   </ul>
   <?php include 'agenda.php';?>
 </div>

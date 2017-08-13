@@ -17,7 +17,7 @@
         }
       }
     };
-    return $(document).on('click', '.dadin-menu-mobile', function() {
+    return $(document).on('click', '.dadin-menu-open', function() {
       return func.menuMobile();
     });
   });

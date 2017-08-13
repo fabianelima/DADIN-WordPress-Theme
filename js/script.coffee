@@ -9,4 +9,4 @@ $ ->
         menu = false
         $('.dadin-menu-mobile-options').animate { height: '0' }
 
-  $(document).on 'click', '.dadin-menu-mobile', -> func.menuMobile()
+  $(document).on 'click', '.dadin-menu-open', -> func.menuMobile()
