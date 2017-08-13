@@ -1,13 +1,13 @@
-    <?php include 'head.php'; ?>
+    <?php get_header(); ?>
     <div class="container-fluid">
       <div class="row">
-        <?php include 'menu1.php'; ?>
+        <?php include 'menu.php'; ?>
         <div class="col-md-9">
           <div class="row">
-            <?php include 'home.php'; ?>
-            <?php include 'menu2.php'; ?>
+            <?php include 'content.php'; ?>
+            <?php include 'sidebar.php'; ?>
           </div>
         </div>
       </div>
     </div>
-    <?php include 'footer.php';?>
+    <?php get_footer(); ?>
