@@ -18,7 +18,7 @@ $ ->
         backgroundSize: viewport
       }###
       $('.jumbotron').css {
-        background: 'url("http://dadin.ct.utfpr.edu.br/wp-content/themes/dadin/img/t' + randy + '.jpg")',
+        background: 'url("http://dadin.ct.utfpr.edu.br/wp-content/themes/DADIN-WordPress-Theme-master/img/t' + randy + '.jpg")',
         backgroundSize: viewport
       }
 
