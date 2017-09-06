@@ -20,12 +20,6 @@
         var randy, viewport;
         randy = Math.floor((Math.random() * 9) + 1);
         viewport = $(window).width();
-
-        /* $('.jumbotron').css {
-          background: 'url("http://univac.local/dadin_wp/wp-content/themes/dadin/img/t' + randy + '.jpg")',
-          backgroundSize: viewport
-        }
-         */
         return $('.jumbotron').css({
           background: 'url("http://dadin.ct.utfpr.edu.br/wp-content/themes/DADIN-WordPress-Theme-master/img/t' + randy + '.jpg")',
           backgroundSize: viewport
