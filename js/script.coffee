@@ -10,7 +10,8 @@ $ ->
         $('.dadin-menu-mobile-options').animate { height: '0' }
 
     randomHeader: ->
-      randy = Math.floor((Math.random() * 9))
+      randy = Math.floor((Math.random() * 9) + 1)
+      console.log randy
       # $('.jumbotron').css { background: 'url("http://dadin.ct.utfpr.edu.br/wp-content/themes/dadin/img/t' + randy + '.jpg") 100%' }
       $('.jumbotron').css { background: 'url("http://univac.local/dadin_wp/wp-content/themes/dadin/img/t' + randy + '.jpg") 100%' }
 

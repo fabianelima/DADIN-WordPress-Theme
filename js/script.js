@@ -18,7 +18,8 @@
       },
       randomHeader: function() {
         var randy;
-        randy = Math.floor(Math.random() * 9);
+        randy = Math.floor((Math.random() * 9) + 1);
+        console.log(randy);
         return $('.jumbotron').css({
           background: 'url("http://univac.local/dadin_wp/wp-content/themes/dadin/img/t' + randy + '.jpg") 100%'
         });
