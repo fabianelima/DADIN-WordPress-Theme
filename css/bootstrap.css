@@ -4968,8 +4968,7 @@ a.badge:focus {
   padding-left: 6%;
   margin-bottom: 0;
   color: inherit;
-  background-color: #eee;
-  background: url('../img/t1.jpg') 100%;
+  /* background: url('../img/t1.jpg') 100%; */
 }
 .jumbotron h1,
 .jumbotron .h1 {
