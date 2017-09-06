@@ -15,8 +15,18 @@
             height: '0'
           });
         }
+      },
+      randomHeader: function() {
+        var randy;
+        randy = Math.floor(Math.random() * 9);
+        return $('.jumbotron').css({
+          background: 'url("http://univac.local/dadin_wp/wp-content/themes/dadin/img/t' + randy + '.jpg") 100%'
+        });
       }
     };
+    $(document).ready(function() {
+      return func.randomHeader();
+    });
     return $(document).on('click', '.dadin-menu-open', function() {
       return func.menuMobile();
     });
