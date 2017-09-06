@@ -24,6 +24,10 @@ footer {
   margin-left: 1em;
 }
 
+.dadin-menu .children li {
+  padding-left: 10%;
+}
+
 .dadin-content li {
   border: none;
   margin-left: none;
