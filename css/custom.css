@@ -25,7 +25,7 @@ footer {
 }
 
 .dadin-menu .children li {
-  padding-left: 10%;
+  padding-left: 6%;
 }
 
 .dadin-content li {
@@ -100,7 +100,7 @@ footer {
   width: 100%;
 }
 
-.dadin-menu li:hover {
+.dadin-menu .page_item:hover {
   cursor: pointer;
   background: #e7e7e7;
 }
@@ -160,6 +160,15 @@ footer {
 .dadin-menu-mobile a:focus {
   color: #e7e7e7;
   text-decoration: none;
+}
+
+.dadin-menu-2 .searchsubmit {
+  border: none;
+  background: none;
+}
+
+.dadin-menu-2 input[type=text] {
+  width: 85%;
 }
 
 @media (max-width:991px) {
