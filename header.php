@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,600,600i" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/custom.css" rel="stylesheet">
 
@@ -20,7 +21,10 @@
     <![endif]-->
     <?php wp_head();?>
   </head>
-  <body>
+  <body <?php body_class(); ?>>
+	  
+	  
+	 <!-- Header --> 
     <div class="jumbotron text-left">
       <a href="<?php echo get_bloginfo( 'wpurl' );?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.svg"></a>
     </div>

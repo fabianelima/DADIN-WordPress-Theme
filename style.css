@@ -1,7 +1,12 @@
 /*
 Theme Name: DADIN
-Author: Fabiane Lima
-Description: Bootstrap Blog template converted to WordPress
-Version: 0.1.0
+Author: Fabiane Lima, Kristina Kantikas
+Description: Tema para o site do Departamento de Desenho Industrial da UTFPR
+Version: 1.0
 Tags: bootstrap, design
 */
+
+.dadin-menu li:nth-child(2) {
+	display: block !important;
+	/* teste */
+}
